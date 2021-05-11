@@ -1,3 +1,5 @@
+<%@ page contentType="text/html; charset=UTF-8" language="java" %>
+
 <!doctype html>
 <html lang="ko">
 
@@ -8,18 +10,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-
+<h1>age.jsp파일입니다.</h1>
 <body>
-    <h1>Welcome 페이지 입니다~~~~</h1>
 
-    <ul>
-        <li><a href="/hello">hello servlet!</a></li>
-        <li><a href="/hello.html">hello form!</a></li>
-        <li><a href="/request/req-ex">request기본 페이지</a></li>
-
-        <li><a href="/score/register">점수관리 프로그램</a></li>
-    </ul>
-
+    <form action="/spring/check">
+        <label>
+            <input type="text" name="age" placeholder="나이를 숫자로 입력하세요!">
+        </label>
+        <button type="submit">확인</button>
+    </form>
 </body>
 
 </html>
