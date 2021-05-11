@@ -76,6 +76,7 @@ public class ScoreController {
         model.addAttribute("total", score.getTotal());
         model.addAttribute("average", score.getAverage());
         return "score/user-info";
+        //test
 
     }
 }
